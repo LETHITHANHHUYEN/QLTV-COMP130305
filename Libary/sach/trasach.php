@@ -12,4 +12,4 @@ $statement1 = $pdo->prepare("UPDATE `books` SET `status`='Available' WHERE id=:i
 $statement1->bindValue(':id', $id);
 $statement1->execute();
 
-header('location: hienthisach.php');
+header('location: dsSachAdmin.php');
