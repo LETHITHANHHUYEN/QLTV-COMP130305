@@ -1,0 +1,105 @@
+/*footer*/
+
+footer {
+    background: black;
+    padding: 8px;
+    color: #eee;
+    display: flex;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer #left-footer {
+    flex: 1;
+    border-right: 1px solid red;
+    padding-left: 32px;
+  }
+  
+  footer #left-footer ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+  }
+  
+  footer #right-footer {
+    flex: 2;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  footer #social-media-footer a .fa-facebook,
+  footer #social-media-footer a .fa-youtube,
+  footer #social-media-footer a .fa-github {
+    color: white;
+    transition: 0.4s;
+  }
+  
+  footer #social-media-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  footer #social-media-footer ul li {
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+  }
+  
+  footer #social-media-footer ul li:hover a .fa-youtube {
+    color: red;
+  }
+  
+  footer #social-media-footer ul li:hover a .fa-facebook {
+    color: #3b5998;
+  }
+  
+  footer #social-media-footer ul li:hover a .fa-github {
+    color: #bbb;
+  }
+
+
+  @media (max-width: 719px) {
+    main {
+      width: 95%;
+    }
+  
+    section {
+      flex-direction: column;
+    }
+  
+    .card,
+    .card .card-image img {
+      width: 100%;
+    }
+  
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer #left-footer {
+    flex: 1;
+    border-right: 0;
+    padding-left: 0;
+  }
+
+  footer #right-footer {
+    background: #eee;
+    color: black;
+  }
+
+  footer #right-footer a {
+    color: black;
+  }
+
+  footer #social-media-footer a .fa-facebook,
+  footer #social-media-footer a .fa-youtube,
+  footer #social-media-footer a .fa-github {
+    color: black;
+    transition: 0.4s;
+  }
+}

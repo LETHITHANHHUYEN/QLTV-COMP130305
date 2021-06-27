@@ -1,0 +1,190 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+ padding: 8px;
+ background: rgba(255, 0, 0, 0.8);
+ border-radius: 8px;
+ margin: 0%;
+ font-size: 30px;
+ font-family: "Roboto Slab",
+ serif;
+ }
+p {
+  line-height: 1.5;
+}
+
+main {
+  margin: 0 auto;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/* Section */
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section-heading {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  transition: all 0.4s;
+  /*display: inline-block;*/
+  padding: 4px 32px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Section Source */
+
+#section-source p {
+  padding: 8px;
+  text-align: center;
+}
+
+#section-source a {
+  margin: 8px;
+  text-align: center;
+}
+
+/* Card */
+
+.card-image {
+  transition: 0.4s;
+}
+
+.card-image:hover {
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.card .card-description {
+  padding: 0 8px;
+}
+
+.card-meta-blogpost{
+  color:#333;
+  font-size:14px;
+  padding: 16px;
+  font-family:'Roboto Slab', serif;
+}
+
+.card-meta-blogpost a{
+  color:#333;
+}
+
+footer #right-footer {
+  flex: 2;
+  padding: 8px;
+  text-align: center;
+}
+
+
+.form {
+  width: 800px;
+  border: 3px solid rgb(238, 9, 58);
+  padding: 20px;
+  margin: 0 auto;
+  font-weight: 700px;
+  background-color:rgb(12, 11, 11);
+  color: rgb(245, 245, 248);
+  font-size: larger;
+  font-family:'Times New Roman';
+  
+}
+
+.form input {
+  width: 100%;
+  padding: 10px 0;
+}
+input, textarea,select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #d8d5db;
+  color: rgb(20, 18, 18);
+  font-size: large
+}
+
+.hh-box {
+  width: 200px;
+  height: 300px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 35px 5px 5px 5px;
+}
+
+.hh-box:hover {
+  box-shadow: 0 0 7px red;
+}
+
+.hh-box-image {
+  width: 200px;
+  height: 180px;
+}
+
+.hh-box-promotion {
+  width: 90px;
+  height: 30px;
+  background-image: url(images/sales.gif);
+  position: absolute;
+  left: 0px;
+  top: 135px;
+}
+
+.hh-box-qua {
+  width: 40px;
+  height: 32px;
+  background-image: url(images/icon_gift.png);
+  position: absolute;
+  right: 0px;
+  top: 135px;
+}
+
+.hh-box-name {
+  position: relative;
+  left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:brown;
+  font-size: medium;
+  width: inherit;
+  color: blue;
+  font-weight: bolder;
+  bottom: 0px;
+}
+
+.hh-box-gia {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+  font-size: small;
+}
+
+.hh-box-gt {
+  font-style: normal;
+  color: black;
+  background-color: aliceblue;
+}
+
+.hh-box-tinhtrang {
+  font-style: italic;
+  color: fuchsia;
+  bottom: 10px;
+}
+.hh-box-sua{
+  position: relative;
+  left:initial ;
+}
