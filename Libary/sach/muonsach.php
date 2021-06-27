@@ -33,4 +33,4 @@ $statement->execute();
 $statement1 = $pdo->prepare("UPDATE `books` SET `status` = 'Unavailable' WHERE `books`.`id` = :id");
 $statement1->bindValue(':id', $id);
 $statement1->execute();
-header('location: hienthisachuser.php');
+header('location: dsSachUser.php');
